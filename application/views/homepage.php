@@ -13,14 +13,14 @@
         <li><a href="#">Contact <img class="nav_icons" src="/grantabbottdesign/assets/foundation/img/icons/fi-mail.svg" /></a></li>
           <li>
             <p class="connect">Connect with Us</p>
-            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/foundation/img/icons/custom/fi-social-twitter-color.svg" /></a>
-            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/foundation/img/icons/custom/fi-social-facebook-color.svg" /></a>
-            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/foundation/img/icons/custom/fi-social-instagram-color.svg" /></a>
-            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/foundation/img/icons/custom/fi-social-youtube-color.svg" /></a>
+            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/images/social/facebook.png" /></a>
+            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/images/social/twitter.png" /></a>
+            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/images/social/youtube.png" /></a>
+            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/images/social/instagram.png" /></a>
             <br />
-            <a href="https://github.com/grantabbott" target="_blank"><img class="nav_icons" src="/grantabbottdesign/assets/foundation/img/icons/fi-social-github.svg" /></a>
-            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/foundation/img/icons/fi-social-google-plus.svg" /></a>
-            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/foundation/img/icons/custom/fi-social-linkedin-color.svg" /></a>
+            <a href="https://github.com/grantabbott" target="_blank"><img class="nav_icons" src="/grantabbottdesign/assets/images/social/github.png" /></a>
+            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/images/social/google_icon.png" /></a>
+            <a href="#"><img class="nav_icons" src="/grantabbottdesign/assets/images/social/LinkedIn_icon.png" /></a>
           </li>
       </ul>
 
