@@ -1,177 +1,185 @@
-body, html {
-    width: auto;
-    min-height: auto;
+/*
+----------------------------------
+Removing default margin and paddings
+on P tags
+----------------------------------
+*/
+p {
+  padding: 0;
+  margin: 0;
 }
 
 
-/*General CSS for all Pages include the container, header, nav, and footer*/
-#container{
-	min-height: auto;
-  width: auto;
-	position:relative;
-	background-color: #9E9E9E;
-	}
 
-  #contentHolder{
-    margin: 25px;
-    background-color: #fff;
-    border: 1px solid black;
+/*
+----------------------------------
+This is the mobile configuration
+----------------------------------
+*/
+  @media screen and (max-width: 1100px) {
+    html, body {
+        width: auto;
+        min-height: auto;
+        background-image: url("/grantabbottdesign/assets/images/background.png");
+        zoom: 85%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
 
+
+    .siteName {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 42px;
+        color: #1B5679;
+          position: absolute;
+          left: 80%;
+          top: 70%;
+          z-index: 1;
+
+          height: 150px;
+          margin-top: -100px;
+
+          width: 250px;
+          margin-left: -275px;
+          text-align: center;
+      }
   }
 
-.bannerIMG img{
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
 
 
-/*CSS for navbar*/
-#siteNav{
-  margin-bottom: 5px;
-}
-
-#siteNav a:link {
-    color:#000000;
-    background-color:transparent;
-    text-decoration:none;
-}
-
-#siteNav a:visited {
-    color:#000000;
-    background-color:transparent;
-    text-decoration:none;
-}
+  /*
+  ----------------------------------
+  Tablet configuration Needed
+  ----------------------------------
+  */
 
 
-/*Multi Level NavBar*/
-.dropdown-menu>li{
-  position:relative;
-	-webkit-user-select: none; /* Chrome/Safari */
-	-moz-user-select: none; /* Firefox */
-	-ms-user-select: none; /* IE10+ */
-  /* Rules below not implemented in browsers yet */
--o-user-select: none;
-user-select: none;
-cursor:pointer;
-}
 
-.dropdown-menu .sub-menu {
-    left: 100%;
+
+  /*
+  ----------------------------------
+  This is the desktop configuration
+  ----------------------------------
+  */
+@media screen and (min-width: 1100px) {
+  html, body {
+      width: auto;
+      min-height: auto;
+      background-image: url("/grantabbottdesign/assets/images/background.png");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+
+  .siteName{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 84px;
+    color: #1B5679;
     position: absolute;
-    top: 0;
-    display:none;
-    margin-top: -1px;
-	border-top-left-radius:0;
-	border-bottom-left-radius:0;
-	border-left-color:#fff;
-	box-shadow:none;
-}
+    left: 80%;
+    top: 60%;
+    z-index: 1;
 
-.right-caret:after,.left-caret:after{
-  content:"";
-  border-bottom: 5px solid transparent;
-  border-top: 5px solid transparent;
-  display: inline-block;
-  height: 0;
-  vertical-align: middle;
-  width: 0;
-	margin-left:5px;
-}
-.right-caret:after
-{	border-left: 5px solid #337ab7;
-}
-.left-caret:after
-{	border-right: 5px solid #337ab7;
+    height: 150px;
+    margin-top: -200px;
+
+    width: 600px;
+    margin-left: -300px;
+  }
 }
 
 
 
-/*Social Media Images CSS*/
-#socialMediaFacebook{
-  height: 48px;
-  width: 48px;
-  margin-left: 3px;
+/*
+----------------------------------
+  CSS for opening nav bar
+----------------------------------
+*/
 
-}
-#socialMediaFacebook:hover {
-  opacity: 0.7;
-}
-
-#socialMediaTwitter{
-  height: 48px;
-  width: 48px;
-  margin-left: 3px;
-
+.jumbotron {
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
-#socialMediaTwitter:hover {
-  opacity: 0.7;
-}
-
-
-
-
-
-#homeWelcoming p{
-  font-family: "Times New Roman";
+.icon-menu {
+  color: #000;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-#medalImages{
+
+
+/*
+----------------------------------
+CSS for the nav icons & Text in the menu
+----------------------------------
+*/
+
+.menu {
+  background: #202024 url('/grantabbottdesign/assets/images/menu_background.jpg') repeat left top;
+  left: -285px;  /* start off behind the scenes */
   height: 100%;
-  width: 100%;
+  position: fixed;
+  width: 285px;
+  z-index: 2;
 }
 
-#aboutImages{
-  height: 100%;
-  width: 100%;
+.nav_icons {
+  width: 35px;
+  margin-left: 10px;
+  text-align: center;
 }
 
-#aboutDescription{
-  background-color: #CCCCCC;
-  border-radius: 8px;
-  font-size: 19.80px;
+.connect {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 26px;
+  color: #fff;
+  margin-left: -35px;
+  text-align: center;
 }
 
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
 
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-/*Start of the Footer CSS*/
-#footer{
-	position:absolute;
-	bottom:100;
-	width:100%;
-	height:40px;   /* Height of the footer */
-	background-color:#e7e7e7;
-  text-align:center;
-	}
-
-#footer p{
-	color: #000000;
-	}
-
-
-/*End of the footer CSS*/
-
-
-/*The construction page is used on pages that are not done yet*/
-#construction{
-	width: 170px;
-  min-height: 100%;
-  margin: 0 175px;
-	float:center;
-  padding: 20px;
-	}
+.icon-menu i {
+  margin-right: 5px;
+}
