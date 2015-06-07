@@ -6,7 +6,7 @@ var main = function() {
   $('.icon-menu').click(function() {
     $('.menu').animate({
       left: "0px"
-    }, 250);
+    }, 200);
     $(".icon-menu").hide();
 
   });
@@ -15,7 +15,7 @@ var main = function() {
   $('.icon-close').click(function() {
     $('.menu').animate({
       left: "-285px"
-    }, 250);
+    }, 200);
 
     $(".icon-menu").show();
   });
